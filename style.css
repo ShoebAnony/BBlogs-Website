@@ -1,0 +1,36 @@
+html{
+    background-color: #222;
+}
+
+h1.title, h1 {
+    color: rgb(255, 255, 255); /* The base color of the text */
+    text-shadow: 0 0 10px #00f, /* Blue glow */
+                 0 0 20px #00f, /* Stronger blue glow */
+                 0 0 30px #00f; /* Even stronger blue glow */
+}
+
+h1.sitename {
+    text-align: center;
+}
+
+.post {
+    background-color: #222; /* Dark background color, almost black */
+    color: #eee; /* Light text color for contrast */
+    padding: 20px; /* Space inside the card */
+    margin: 20px; /* Space around the card */
+    border-radius: 8px; /* Slightly rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* A subtle shadow to make it pop */
+}
+
+#likeButton { 
+    background-image: radial-gradient(at 20% -10%, grey, black);
+    border-radius: 5px ;
+    color: rgb(0, 255, 187);
+ 
+}
+#likeButton:hover { 
+    background-image: radial-gradient(at 20% 20%, rgb(0, 0, 0), rgb(123, 123, 123));
+    border-radius: 5px ;
+    color: rgb(255, 255, 255);
+    align-items: center;
+}
